@@ -41,8 +41,9 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "**********************"
-  ui_print "	Build Manager	  "
-  ui_print "       by Fayz	      "
+  ui_print "    Visible Wireless  "
+  ui_print "    for every phone.  "
+  ui_print "    by @origin80417   "
   ui_print "**********************"
 }
 
@@ -64,6 +65,9 @@ REPLACE="
 # Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
+/system/system_ext/priv-app/CarrierConfig
+/system/etc/apns-conf.xml
+/vendor/overlay/CarrierConfig__auto_generated_rro_vendor.apk
 "
 
 ##########################################################################################
