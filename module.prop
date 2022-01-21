@@ -1,7 +1,6 @@
 id=BuilManager
-name=Build Manager
-version=v1.7.x alpha
-versionCode=7
-author=Fayz
-description=Dalvik VM, Stream Videos, Image Quality, DNS system-lessy, Rotation Homescreen, Internet Speed, Scrolling, IPV4/IPV6, GCam API, More...
-donate=paypal.me/pmspr4100
+name=Visible Build Manager
+version=v1.0
+versionCode=1
+author=origin80417
+description=Tweaks to improve over-all performance plus files to make Visible Wireless work on Xiaomi devices and possibly others
