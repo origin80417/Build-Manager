@@ -54,8 +54,5 @@ echo "256960" > /proc/sys/net/core/wmem_default;
 echo "4096,16384,404480" > /proc/sys/net/ipv4/tcp_wmem;
 echo "4096,87380,404480" > /proc/sys/net/ipv4/tcp_rmem;
 sleep 30
-chmod 666 /sys/module/lowmemorykiller/parameters/minfree
-chown root /sys/module/lowmemorykiller/parameters/minfree
-echo '21816,29088,36360,43632,50904,65448' > /sys/module/lowmemorykiller/parameters/minfree
 rm /data/system/perfd/default_values
 start perfd
